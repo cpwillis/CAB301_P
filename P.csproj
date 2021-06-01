@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Menu.cs" />
+    <Compile Remove="Tools\iMember.cs" />
+    <Compile Remove="Tools\iMemberCollection.cs" />
+    <Compile Remove="Tools\iTool.cs" />
+    <Compile Remove="Tools\iToolCollection.cs" />
+    <Compile Remove="Tools\iToolLibrarySystem.cs" />
+  </ItemGroup>
+
+</Project>
